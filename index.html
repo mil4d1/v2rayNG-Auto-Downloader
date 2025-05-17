@@ -499,7 +499,7 @@
         // تابع برای دریافت اطلاعات ریلیزها
         async function fetchReleases() {
             try {
-                const response = await fetch('api.github.com/repos/2dust/v2rayNG/releases');
+                const response = await fetch('https://api.github.com/repos/2dust/v2rayNG/releases');
                 if (!response.ok) {
                     throw new Error('خطا در دریافت اطلاعات از GitHub');
                 }
